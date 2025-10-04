@@ -216,6 +216,7 @@ void UartConfig(Uart *port, uint8_t state)
 }
 
 
+
 void UartClearRx(Uart *port)
 {
 	__disable_irq();
